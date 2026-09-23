@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(30, 14, 43, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+nav{
+    display: flex ;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px;
+
+    ol li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        flex-direction: row;
+        margin-right: 20px;
+        white-space: none;
+        margin-top: 50px;
+    }
+}
+
+.linha-horizontal{
+    width: 90%;
+    height: 0;
+    border: 5px rgba(243, 19, 102, 1);
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+figure{
+    margin-left: 20%;
+}
+
+.apresentação-dos-eventos{
+    display: block;
+    position: relative;
+    flex-direction: row;
+    padding-left: 20%;  
+    align-items: stretch;
+}
+
+.musico-ao-vivo{
+    display: flex;
+    align-items: center;
+    
+}
+
+p{
+    display: flex;
+    position: relative;
+    padding-left: 30px;
+    top: -25px;
+}
+
+.ver-evento{
+    border-radius: 11px;
+    border: 1px;
+    background: rgba(243, 19, 102, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 46px;
+    height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+    left: 22%;
+}
+
+.informacao{
+    transform: translate(70%, -300%);
+}
+
+.informacao h1{
+    color: rgba(255, 64, 135, 1);
+}
+
+.informacao data{
+    color: rgba(9, 189, 205, 1);
+}
+
+.btn{
+    border-radius: 11px;
+    border: 1px;
+    background: rgba(243, 19, 102, 1);
+    color: rgba(242, 242, 242, 1);
+    height: 26px;
+    padding: 0 10px;
+}
+
+button [type="submit"]{
+    font-style: SemiBold;
+    font-size: 600;
+    line-height: 100%;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+h2{
+    display: flex;
+    position: relative;
+    padding-left: 20%;
+    padding-bottom: 0px;
+    top: -100px;
+}
+
+.logotipo-senac{
+    display: flex;
+    position: relative;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    bottom: 30px;
+}
