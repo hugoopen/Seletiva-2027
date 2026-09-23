@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(30, 14, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-top: 3%;
+
+    ul li{
+        display: inline-block;
+        flex-direction: row;
+        white-space: nowrap;
+        padding: 10px;
+        padding-top: 40px;
+    }
+}
+
+#menu li:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(243, 19, 102, 1);
+    border: 1px;
+    border-radius: 11px;
+}
+
+h1{
+    color: rgba(255, 64, 135, 1);
+}
+
+p.subtitulo{
+    color: rgba(13, 175, 196, 1);
+    line-height: 16px;
+    padding-left: 10px;
+}
+
+.informacoes{
+    display: flex;
+    position: relative;
+    top: 250px;
+    left: 45%;
+}
+
+form{
+    display: flex;
+    position: relative;
+    left: 42%;
+    top: 250px;
+}
+
+label{
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+
+input{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 60%;
+    border-radius: 14px;
+    border: 1px;
+    left: 120px;
+}
+
+button{
+    display: flex;
+    position: relative;
+    top: 50px;
+    border-radius: 14px;
+    border: 1px;
+    left: 140px;
+}
+
+.senac{
+    display: flex;
+    padding-top: 25%;
+}
+
+.filho{
+    display: inline-block;
+    position:relative;
+    white-space: nowrap;
+    padding: 10px;
+    left: 65%;
+}
