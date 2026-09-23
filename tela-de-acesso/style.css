@@ -1,8 +1,16 @@
 body{
-    background: url(tela\ de\ fundo.png);
+    background: url(imagem-fundo.jpg);
 }
 
+header{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20%;
+}
 .logo-senac{
     align-items: center;
-    justify-content: center;
+    
 }
